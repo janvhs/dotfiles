@@ -1,0 +1,7 @@
+Host *
+    ForwardAgent Yes
+    {{- if eq .chezmoi.os "darwin" }}
+    UseKeychain yes
+    {{- end }}
+    AddKeysToAgent yes
+    User jan
