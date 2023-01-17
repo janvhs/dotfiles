@@ -1,9 +1,9 @@
 #! /bin/sh
 
 movie_sleep() {
-    # Check if the system is Darwin
     if ! is_darwin; then
-        movie_sleep_darwin "$@"
+        echo 'This script is only for Darwin'
+        return 1
     fi
 
 
@@ -11,7 +11,9 @@ movie_sleep() {
         echo "Usage: movie_sleep <time>{,m,h,d}"
         return 1
     fi
+}
 
+movie_sleep_darwin() {
     echo "Going to sleep after $1"
     sleep "$1"
     osascript -e 'tell app "System Events" to sleep'
