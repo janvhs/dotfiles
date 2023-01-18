@@ -1,0 +1,9 @@
+encryption = "age"
+
+[age]
+    identity = "~/.age/key.txt"
+    recipient = "age1suklv577yq023jyf2xfyad9cllpa6uzeal5gn37syxty93c6kycsx34aex"
+
+[git]
+    autoCommit = true
+    autoPush = false
