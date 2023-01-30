@@ -1,0 +1,24 @@
+#! /bin/sh
+
+# This script runs composer inside a docker container.
+# It is used to avoid having to install composer on the host machine.
+
+if [ -t "$USE_LOCAL_CACHE" ]; then
+    COMPOSER_HOME=${COMPOSER_HOME:-$HOME/.config/composer}
+    COMPOSER_CACHE_DIR=${COMPOSER_CACHE_DIR:-$HOME/.cache/composer}
+    mkdir -p "$COMPOSER_HOME" "$COMPOSER_CACHE_DIR"
+    
+    docker run --rm --interactive --tty \
+        --env COMPOSER_HOME \
+        --env COMPOSER_CACHE_DIR \
+        --volume "$COMPOSER_HOME":/tmp \
+        --volume "$COMPOSER_CACHE_DIR":/tmp/cache \
+        --volume $PWD:/app \
+        --user "$(id -u)":"$(id -g)" \
+        composer "$@"
+else
+    docker run --rm --interactive --tty \
+        --volume $PWD:/app \
+        --user "$(id -u)":"$(id -g)" \
+        composer "$@"
+fi
