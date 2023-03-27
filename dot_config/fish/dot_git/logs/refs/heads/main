@@ -1,0 +1,31 @@
+0000000000000000000000000000000000000000 489ab96731ffcf5f4c0fe030e31eef424f6de60f Jan Fooken <git@bode.fun> 1679897413 +0200	clone: from github.com:bode-fun/fish-conf
+489ab96731ffcf5f4c0fe030e31eef424f6de60f d41669f94a05c81e99eff4b8155f3300d130900f Jan Fooken <git@bode.fun> 1679898203 +0200	commit: Make fzf keybindings platform independent
+d41669f94a05c81e99eff4b8155f3300d130900f 71c3cf652710fe14e173bde8ca648c19264ea502 Jan Fooken <git@bode.fun> 1679898849 +0200	commit: Move homebrew config to its own file
+71c3cf652710fe14e173bde8ca648c19264ea502 4f5a85a95890b58f31ab21e599ff5d09613fcd76 Jan Fooken <git@bode.fun> 1679899537 +0200	commit: Move command-not-found handler to brew config
+4f5a85a95890b58f31ab21e599ff5d09613fcd76 4a40a2e6a45e3a7bb7157b6a0ae1d33bfa0f18d7 Jan Fooken <git@bode.fun> 1679899619 +0200	commit: Add wsl config skeleton
+4a40a2e6a45e3a7bb7157b6a0ae1d33bfa0f18d7 7ea4ccddf14522c00c5f2da6826da62687add353 Jan Fooken <git@bode.fun> 1679899694 +0200	commit: Simplify the brew config
+7ea4ccddf14522c00c5f2da6826da62687add353 f0485fefa902be2d2b1b9b190e15bc4dc6a89e7c Jan Fooken <git@bode.fun> 1679900366 +0200	commit: Update sdk folder path
+f0485fefa902be2d2b1b9b190e15bc4dc6a89e7c 09884879d63f677985c25f70d7fda1d51ce52a35 Jan Fooken <git@bode.fun> 1679900399 +0200	commit: Alias z with cd
+09884879d63f677985c25f70d7fda1d51ce52a35 915e42751f2025c57acdbcd2300862cfe3305ec2 Jan Fooken <git@bode.fun> 1679900487 +0200	commit: Move XDG_RUNTIME_DIR to darwin config
+915e42751f2025c57acdbcd2300862cfe3305ec2 ace5358fc1283bf1179ade4c4e705f11bdc426e7 Jan Fooken <git@bode.fun> 1679900573 +0200	commit: Move XDG_RUNTIME_DIR exit handler to darwin config
+ace5358fc1283bf1179ade4c4e705f11bdc426e7 11bf571ebda064a1b9639424291691faa7ec73a8 Jan Fooken <git@bode.fun> 1679900914 +0200	commit: Add all currently maintained python versions
+11bf571ebda064a1b9639424291691faa7ec73a8 77db9600605e1f35065291e3400ccbf015346a61 Jan Fooken <git@bode.fun> 1679902968 +0200	commit: Update XDG directories
+77db9600605e1f35065291e3400ccbf015346a61 0a5c3cbc4db6e57e996239092623bbfd03354edc Jan Fooken <git@bode.fun> 1679902990 +0200	commit: Deactivate the fish greeting message
+0a5c3cbc4db6e57e996239092623bbfd03354edc ac991dc59e2eab589ab67c6ac4d287b3d09d0193 Jan Fooken <git@bode.fun> 1679905004 +0200	commit: Alias cd to zoxide, set pager and add todos
+ac991dc59e2eab589ab67c6ac4d287b3d09d0193 39f2b91f811acc85966ff199cc95168a7bd11e8f Jan Fooken <git@bode.fun> 1679905271 +0200	commit: Rename the config to ensure the order it is executed in
+39f2b91f811acc85966ff199cc95168a7bd11e8f e91eb69fb76e1858f30c7e10276c54d8a43ec4d8 Jan Fooken <git@bode.fun> 1679905291 +0200	commit: Move the common config to the conf.d dir
+e91eb69fb76e1858f30c7e10276c54d8a43ec4d8 70d9c23179a769e1dbbcd025f0b0d4ca3f33dfe9 Jan Fooken <git@bode.fun> 1679905392 +0200	commit: Fix bug wslenv
+70d9c23179a769e1dbbcd025f0b0d4ca3f33dfe9 2264be0f291fad5c1717cd651ab448dcab1aa20a Jan Fooken <git@bode.fun> 1679905420 +0200	commit: Rename bode_wslenv
+2264be0f291fad5c1717cd651ab448dcab1aa20a 3dc22235083220474db806c6b934578157162811 Jan Fooken <git@bode.fun> 1679905458 +0200	commit: Rename wslenv
+3dc22235083220474db806c6b934578157162811 22e260fbc58511ff4ae502000277868b64dc483c Jan Fooken <git@bode.fun> 1679905479 +0200	commit: Add magic-enter. Thanks @mattmc3
+22e260fbc58511ff4ae502000277868b64dc483c 309f18d80d3624fa9881f34dbd3bc89ee85b26dc Jan Fooken <git@bode.fun> 1679905488 +0200	commit: Add ls on cd
+309f18d80d3624fa9881f34dbd3bc89ee85b26dc a206d609991d0ba06ac7a0bdaa164fe8ea709072 Jan Fooken <git@bode.fun> 1679905508 +0200	commit: Replace cd function with an alias
+a206d609991d0ba06ac7a0bdaa164fe8ea709072 36110f032a30d04a9aac9de03af6c467bdf10362 Jan Fooken <git@bode.fun> 1679905594 +0200	commit: Add the completions directory to git tree
+36110f032a30d04a9aac9de03af6c467bdf10362 2fa8f79378e51f44319590e47b8cd51df0d08f76 Jan Fooken <git@bode.fun> 1679909219 +0200	commit: Print error to stderr
+2fa8f79378e51f44319590e47b8cd51df0d08f76 c8951cca698655a13e7e683734c7314560628a13 Jan Fooken <git@bode.fun> 1679909309 +0200	commit: Add refresh brewfile
+c8951cca698655a13e7e683734c7314560628a13 d8f84faac5b627d8500f9cab99feac4917bd7a2b Jan Fooken <git@bode.fun> 1679909319 +0200	commit: Add movie sleep
+d8f84faac5b627d8500f9cab99feac4917bd7a2b dae0e8b6644f907efe2f9d1e8e79ad7dd1862a20 Jan Fooken <git@bode.fun> 1679909330 +0200	commit: Add bode_is_ssh
+dae0e8b6644f907efe2f9d1e8e79ad7dd1862a20 6d2f99269384a37b221cc04f3f53b00e6fb9fb02 Jan Fooken <git@bode.fun> 1679909343 +0200	commit: Add brewup alias
+6d2f99269384a37b221cc04f3f53b00e6fb9fb02 92bc99fbf2edce140d4a6727bf7aa8072b4d1954 Jan Fooken <git@bode.fun> 1679909356 +0200	commit: Add todo to the config.fish
+92bc99fbf2edce140d4a6727bf7aa8072b4d1954 0b51fc37aa52b8a775d271678707d779bdcdcb78 Jan Fooken <git@bode.fun> 1679911827 +0200	commit: fix linux case for os_discovery
+0b51fc37aa52b8a775d271678707d779bdcdcb78 e5091bd3998eed3d3e0b9fd040cedcac8d729d60 Jan Fooken <git@bode.fun> 1679911835 +0200	commit: Add windows paths
