@@ -35,7 +35,7 @@ end
 # Path
 #
 
-set windows_home "(wslpath "(wslenv USERPROFILE)")"
+set windows_home (wslpath (wslenv USERPROFILE))
 fish_add_path "$windows_home/AppData/Local/Programs/Microsoft VS Code/bin"
 fish_add_path "$windows_home/scoop/apps/rancher-desktop/current/resources/resources/linux/bin"
 
@@ -57,6 +57,8 @@ if status --is-interactive
     #
     # Aliases
     #
+
+    alias explorer /mnt/c/Windows/explorer.exe
 
     # TODO: Add alias for trash until Dustman supports Linux
     # Delete files safely
