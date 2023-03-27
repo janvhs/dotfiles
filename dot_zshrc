@@ -227,7 +227,7 @@ fpath=("$HOMEBREW_PREFIX/share/zsh/site-functions" $fpath)
 add_multiple_to_path "$HOME/.local/bin" "$HOME/.rd/bin" "$HOME/go/bin"
 
 # SDKs
-add_to_path "$HOME/sdk/graalvm/bin"
+add_to_path "$HOME/sdk/bin"
 
 # Composer
 # PATH="$HOME/.config/composer/vendor/bin/:$PATH"
@@ -398,3 +398,5 @@ fi
 autoload -Uz compinit bashcompinit
 compinit     # defering with 2 in zplug means that these plugins are loaded after compinit
 bashcompinit # already called by oh-my-zsh, defered by zplug
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
