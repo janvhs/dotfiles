@@ -1,0 +1,9 @@
+[".config/fish"]
+type = "git-repo"
+url = "https://github.com/bode-fun/fish-conf.git"
+refreshPeriod = "48h"
+
+[".config/bat/themes"]
+type = "git-repo"
+url = "https://github.com/catppuccin/bat"
+refreshPeriod = "168h"
