@@ -5,5 +5,5 @@ refreshPeriod = "48h"
 
 [".config/bat/themes"]
 type = "git-repo"
-url = "https://github.com/catppuccin/bat"
+url = "https://github.com/catppuccin/bat.git"
 refreshPeriod = "168h"
