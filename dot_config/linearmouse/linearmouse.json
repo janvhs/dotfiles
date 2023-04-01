@@ -1,0 +1,57 @@
+{
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.8.0",
+  "schemes" : [
+    {
+      "pointer" : {
+        "acceleration" : 0.6875,
+        "speed" : 0.0689655172413792768,
+        "disableAcceleration" : false
+      },
+      "if" : {
+        "device" : {
+          "vendorID" : "0x0",
+          "category" : "trackpad",
+          "productID" : "0x0"
+        }
+      },
+      "scrolling" : {
+        "acceleration" : 1,
+        "distance" : "auto",
+        "speed" : 0
+      }
+    },
+    {
+      "buttons" : {
+        "universalBackForward" : false
+      },
+      "if" : {
+        "device" : {
+          "productName" : "Razer Basilisk V2",
+          "productID" : "0x85",
+          "category" : "mouse",
+          "vendorID" : "0x1532"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0.6875,
+        "speed" : 0.0689655172413792768,
+        "disableAcceleration" : false
+      },
+      "scrolling" : {
+        "speed" : {
+          "vertical" : 0
+        },
+        "acceleration" : {
+          "vertical" : 2
+        },
+        "reverse" : {
+          "horizontal" : false,
+          "vertical" : true
+        },
+        "distance" : {
+          "vertical" : "auto"
+        }
+      }
+    }
+  ]
+}
