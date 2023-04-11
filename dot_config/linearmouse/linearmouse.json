@@ -35,14 +35,14 @@
       "pointer" : {
         "acceleration" : 0.6875,
         "speed" : 0.0689655172413792768,
-        "disableAcceleration" : false
+        "disableAcceleration" : true
       },
       "scrolling" : {
         "speed" : {
           "vertical" : 0
         },
         "acceleration" : {
-          "vertical" : 2
+          "vertical" : 1
         },
         "reverse" : {
           "horizontal" : false,
