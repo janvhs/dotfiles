@@ -1,7 +1,7 @@
-[".config/fish"]
-type = "git-repo"
-url = "https://github.com/bode-fun/fish-conf.git"
-refreshPeriod = "48h"
+#[".config/fish"]
+#type = "git-repo"
+#url = "https://github.com/bode-fun/fish-conf.git"
+##refreshPeriod = "48h"
 
 [".config/bat/themes/catppuccin"]
 type = "git-repo"
